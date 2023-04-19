@@ -1,0 +1,40 @@
+.team{
+    &-group{
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    &-image{
+        border: 1px solid #eae9ed;
+        border-radius: 100%;
+    }
+    &-content{
+        width: 30%;
+    }
+    &-icon{
+        margin-left: 250px;
+       }
+    &-title{
+        font-weight: 500px;
+        color: #5f6e9d;
+    }
+    &-name{
+        font-size: 18px;
+    }
+    &-icon2{
+        width: 30px;
+        height: 30px;
+    }
+    &-head{
+        text-align: center;
+        span{
+            color: #f07f51;
+        }
+        padding-bottom: 50px;
+    }
+    &-scripts{
+        color: #5f6e9d;
+    }
+}

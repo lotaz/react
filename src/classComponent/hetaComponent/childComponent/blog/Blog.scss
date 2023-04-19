@@ -1,0 +1,33 @@
+.blog{
+    &-grid{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+    }
+    &-left{
+        img{
+            width: 500px;
+            height: 350px;
+        }
+        &-button{
+            padding: 8px 12px;
+            background: orangered;
+            border-radius: 60px;
+            border: none;
+            margin-left: 400px;
+        }
+    }
+    &-right{
+        &-group{
+            display: flex;
+        }
+        &-image{
+            width: 250px;
+            height: 250px;
+            img{
+                width: 100%;
+                height: auto    ;
+            }
+        }
+    }
+}

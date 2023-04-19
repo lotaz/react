@@ -1,0 +1,13 @@
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    width: 88%;
+    margin: 0 auto;
+    &-image{
+       width: 300px;
+       img{
+        width: 300px;
+        height: 100px;
+       }
+    }
+}
